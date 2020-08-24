@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ZotSleep</string>
+    <string name="google_maps_key">AIzaSyAzjrZb2QSHltBZt1tZB7fVEB-P35AVNM8</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="welcome">Hello\nRichard</string>
+    <string name="sleep">Are you ready to go to sleep?</string>
+    <string name="good_night">Good night Richard!</string>
+    <string name="good_morning">Good morning Richard!</string>
+    <string name="sleep_tracking">Still tracking your sleep!</string>
+    <string name="guidance">Here is a list of things that will help you go back to sleep:
+        \n1. Try not to constantly look at the time\n2. Listen to calming music
+        \n3. Picture your favorite place\n4.Get up and read</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_sleep_prompt">SleepPrompt</string>
+    <string name="title_activity_fade_text">FadeText</string>
+    <string name="title_activity_sleep_tracking">SleepTracking</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_awake">AwakeActivity</string>
+    <string name="title_activity_sleep_fragment">SleepFragment</string>
+    <string name="title_activity_awake_fragment">AwakeFragment</string>
+    <string name="title_activity_temp">Temp</string>
+    <string name="intro_text">Swipe edge to exit the map.</string>
+</resources>

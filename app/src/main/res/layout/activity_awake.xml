@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/fadeTextFL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/messageTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:gravity="center"
+            android:text="@string/good_morning"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/sleepingIB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@android:color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_awake"
+            android:transitionName="awakeIcon" />
+
+        <Button
+            android:id="@+id/stopGeofenceB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Geofence"
+            android:layout_gravity="center|bottom"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>

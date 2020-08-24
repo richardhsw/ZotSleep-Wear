@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sceneRoot"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="#121733">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/trackingTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:gravity="center|top"
+            android:text="DISPLAYING SLEEP FRAG"
+            android:textColor="#8093FF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/heartTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#8093FF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/sleepingIB"
+            android:transitionName="awakeIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|bottom"
+            android:adjustViewBounds="true"
+            android:background="#121733"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_sleeping" />
+
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "943164672897",
+    "firebase_url": "https://cs125-233405.firebaseio.com",
+    "project_id": "cs125-233405",
+    "storage_bucket": "cs125-233405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943164672897:android:02078a37efedcc47",
+        "android_client_info": {
+          "package_name": "com.example.zotsleep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943164672897-cba163fj610fsu9n9pjis7a8ms8tpleq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zotsleep",
+            "certificate_hash": "2041023802da70f12578a2da96da5ccfc0657a02"
+          }
+        },
+        {
+          "client_id": "943164672897-780jbc3g8k0cnkkumdo7t4ea5bppfvjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZDbFPPr8SU74AVjj76XMT1E9dFKKm8Aw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943164672897-780jbc3g8k0cnkkumdo7t4ea5bppfvjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
